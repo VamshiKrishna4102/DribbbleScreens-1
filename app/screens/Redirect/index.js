@@ -1,6 +1,6 @@
 import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import React from 'react';
-
+// changes from local
 const RedirectScreens = ({navigation}) => {
   return (
     <View style={styles.container}>
