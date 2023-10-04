@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "app/assets/fonts/Ramabhadra-Regular.ttf",
+      "sha1": "d412f60c047f5446aa7db63f4c91a4185a077880"
+    },
+    {
+      "path": "app/assets/fonts/english.ttf",
+      "sha1": "380c3d54a3116a224edcb4bf83e043a0ee140fe1"
+    },
+    {
+      "path": "app/assets/fonts/telugu.ttf",
+      "sha1": "d412f60c047f5446aa7db63f4c91a4185a077880"
+    }
+  ]
+}

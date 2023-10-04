@@ -19,6 +19,11 @@ const RedirectScreens = ({navigation}) => {
         onPress={() => navigation.navigate('Favourites')}>
         <Text style={styles.button_text}>Favourites Screen</Text>
       </TouchableOpacity>
+      <TouchableOpacity
+        style={[styles.button, {backgroundColor: '#000'}]}
+        onPress={() => navigation.navigate('Dummmy')}>
+        <Text style={styles.button_text}>Favourites Screen</Text>
+      </TouchableOpacity>
     </View>
   );
 };

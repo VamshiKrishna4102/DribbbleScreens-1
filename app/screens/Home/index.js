@@ -78,7 +78,13 @@ const HomeScreen = () => {
   return (
     <View style={styles.container}>
       <SafeAreaView>
-        <ScrollView>
+        <Text style={{fontFamily:'Ramabhadra-Regular'}}>
+        డిజిటల్ విప్లవంతో ప్రపంచ వ్యాప్తంగా వివిధ భాషలలో సమాచార వినిమయం జరుగుతూ ఉంది. మన తెలుగు విషయమే తీసుకుంటే ఇంతకు ముందు ఉన్న ఫాంట్లను ఉపయోగించి సమాచార వినిమయం (మెయిల్స్ పంపడం, సమాచారాన్ని ఓపెన్ ఫైల్స్ గా పంపడం వంటివి) చాలా కష్టసాధ్యమైన పని. తెలుగులో యూనికోడ్ ఫాంట్ల రాకతో ఆ పని చాలా సులభసాధ్యమైంది. యూనికోడ్ ఫాంట్స్ మన తెలుగు ఫాంట్ యూజర్ల కోసం అందుబాటులోకి తెచ్చే ఉద్దేశమే ఈ తెలుగుఫాంట్స్ డాట్ ఇన్. అందరూ దీనిని సద్వినియోగపరుచుకుంటారని ఆశిస్తూ...
+        </Text>
+        <Text style={{fontFamily:'english'}}>
+        Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or private, to manifest his religion or belief in teaching, practice, worship and observance.
+        </Text>
+        {/* <ScrollView>
           <FlatList
             data={OffersData}
             horizontal
@@ -143,7 +149,7 @@ const HomeScreen = () => {
               <Text style={styles.price}>$40 $60</Text>
             </View>
           </View>
-        </ScrollView>
+        </ScrollView> */}
       </SafeAreaView>
     </View>
   );

@@ -4,6 +4,7 @@ import StoreScreen from '../Store';
 import FevoritesScreen from '../Favourites';
 import {NavigationContainer} from '@react-navigation/native';
 import RedirectScreens from '../Redirect';
+import DummyScreen from '../Dummy';
 
 const Stack = createStackNavigator();
 
@@ -18,6 +19,7 @@ function MyApp() {
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Store" component={StoreScreen} />
         <Stack.Screen name="Favourites" component={FevoritesScreen} />
+        <Stack.Screen name="Dummmy" component={DummyScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
